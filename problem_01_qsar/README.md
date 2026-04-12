@@ -1,4 +1,6 @@
-🧬 Project Structure (Final Version)
+🧬 Project Structure 
+
+
 🔴 Problem
 
 Drug discovery is a time-consuming and expensive process that requires testing thousands of chemical compounds to identify potential drug candidates. Experimental evaluation of bioactivity, such as IC50, is costly and not scalable for large chemical libraries.

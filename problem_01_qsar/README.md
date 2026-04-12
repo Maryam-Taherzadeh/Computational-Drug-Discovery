@@ -50,5 +50,5 @@ The model was able to learn the relationship between molecular features and biol
 Predicted IC50 values showed good correlation with experimental data
 The model can be used for virtual screening to prioritize compounds
 Demonstrates the effectiveness of machine learning in drug discovery
-🎯 If You Want (Next Step)
+
 

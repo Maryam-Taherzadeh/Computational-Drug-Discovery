@@ -47,4 +47,3 @@ Overall, the integration of machine learning into biological sciences represents
 
 
 
-اگر خواستی، چند تا جمله خیلی کاربردی کافه هم بهت می‌دم که راحت سفارش بدی.

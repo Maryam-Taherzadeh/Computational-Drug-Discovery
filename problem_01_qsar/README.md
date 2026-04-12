@@ -14,6 +14,7 @@ This allows us to:
 identify promising drug candidates
 reduce the number of required laboratory experiments
 accelerate the drug discovery pipeline
+
 ⚙️ Method
 
 We used a data-driven approach:

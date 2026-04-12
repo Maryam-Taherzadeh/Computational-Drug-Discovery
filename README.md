@@ -1,7 +1,7 @@
 
 ## Machine Learning in Biological Sciences
 
-Machine learning has significantly transformed the landscape of biological research, particularly in drug discovery. Traditionally, identifying new drug candidates required extensive laboratory experiments, large financial investments, and years of effort. Today, machine learning accelerates this process by extracting insights from complex biological and chemical data, enabling faster and more efficient decision-making.
+Machine learning has significantly transformed the landscape of biological research, particularly in drug discovery. Traditionally, identifying new drug candidates required extensive laboratory experiments, large financial investments and years of effort. Today, machine learning accelerates this process by extracting insights from complex biological and chemical data, enabling faster and more efficient decision-making.
 
 By leveraging computational models, researchers can identify promising compounds, optimize molecular properties, and improve the overall success rate of drug development pipelines.
 

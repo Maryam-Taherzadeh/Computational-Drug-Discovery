@@ -7,7 +7,8 @@ By leveraging computational models, researchers can identify promising compounds
 
 ### Key Applications
 
-**1. Target Identification and Validation**
+**1. Target Identification and Validation** 
+
 Machine learning models can analyze large-scale biological datasets such as genomics and proteomics to identify disease-associated targets. These approaches help prioritize biologically relevant targets early in the pipeline, reducing time spent on less promising candidates.
 
 **2. Drug Design and Optimization**

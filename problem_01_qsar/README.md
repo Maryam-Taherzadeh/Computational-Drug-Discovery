@@ -1,54 +1,86 @@
-🧬 Project Structure 
 
 
-🔴 Problem
+## 🧬 Project: MDM2–p53 Inhibitor Prediction Using Machine Learning
 
-Drug discovery is a time-consuming and expensive process that requires testing thousands of chemical compounds to identify potential drug candidates. Experimental evaluation of bioactivity, such as IC50, is costly and not scalable for large chemical libraries.
+### 🔴 Problem
 
-🎯 Objective
+The interaction between **MDM2 and p53** plays a critical role in cancer progression. MDM2 negatively regulates the tumor suppressor protein p53, and inhibiting this interaction is a key strategy in anticancer drug development.
 
-The objective of this project is to build a machine learning model to predict the bioactivity (IC50) of chemical compounds based on their molecular structure.
+However, identifying effective MDM2 inhibitors is challenging. Experimental evaluation of bioactivity (e.g., IC50) for thousands of compounds is expensive, time-consuming, and not scalable.
 
-This allows us to:
+---
 
-identify promising drug candidates
-reduce the number of required laboratory experiments
-accelerate the drug discovery pipeline
+### 🎯 Objective
 
-⚙️ Method
+The objective of this project is to develop a machine learning model to predict the bioactivity (IC50) of chemical compounds targeting the MDM2–p53 interaction based on their molecular structure.
 
-We used a data-driven approach:
+This enables us to:
 
-Dataset: ChEMBL
-Molecular representation: SMILES
-Feature extraction: RDKit (descriptors/fingerprints)
-Model: Random Forest / XGBoost regression
+* identify potential MDM2 inhibitors
+* reduce reliance on costly laboratory experiments
+* accelerate early-stage drug discovery
+* prioritize compounds for further testing
 
-Steps:
+---
 
-Data cleaning and preprocessing
-Feature generation from molecular structures
-Model training
-Performance evaluation
-💻 Code
+### ⚙️ Method
 
-The implementation is available in the Jupyter Notebook:
+A data-driven workflow was implemented:
 
-chembl_ic50_prediction.ipynb
+* **Dataset:** ChEMBL (MDM2–p53 interaction data)
+* **Molecular representation:** SMILES
+* **Feature extraction:** RDKit (molecular descriptors and fingerprints)
+* **Model:** Random Forest / XGBoost
+
+---
+
+### 🔬 Data Preprocessing
+
+* Filtered bioactivity data for IC50 values
+
+* Removed missing values
+
+* Standardized units (nM)
+
+* Labeled compounds into:
+
+  * **active** (IC50 ≤ 1000 nM)
+  * **intermediate** (1000 < IC50 < 10000 nM)
+  * **inactive** (IC50 ≥ 10000 nM)
+
+* Constructed a clean dataset including:
+
+  * molecule IDs
+  * SMILES strings
+  * IC50 values
+  * bioactivity class
+
+---
+
+### 💻 Code
+
+The full implementation is available in the Jupyter Notebook:
+
+`mdm2_ic50_prediction.ipynb`
 
 The notebook includes:
 
-data preprocessing
-feature engineering
-model training
-evaluation and visualization
+* data collection from ChEMBL
+* preprocessing and cleaning
+* feature generation using RDKit
+* model training and evaluation
 
-📊 Results
+---
 
-The model was able to learn the relationship between molecular features and biological activity.
+### 📊 Results
 
-Predicted IC50 values showed good correlation with experimental data
-The model can be used for virtual screening to prioritize compounds
-Demonstrates the effectiveness of machine learning in drug discovery
+* The model successfully learned patterns between molecular structure and bioactivity.
+* Predicted IC50 values showed meaningful correlation with experimental data.
+* The model can be used for **virtual screening** to prioritize potential MDM2 inhibitors.
 
+---
+
+### 🚀 Conclusion
+
+This project demonstrates how machine learning can be applied to predict molecular bioactivity and accelerate drug discovery. By combining cheminformatics (RDKit) with predictive modeling, we can efficiently identify promising compounds targeting the MDM2–p53 interaction.
 
